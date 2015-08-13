@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HOME</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="fantastico Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery-1.11.0.min.js"></script>
+<link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!--start-smoth-scrolling-->
+<!--start-top-nav-script-->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+<!--End-top-nav-script-->
+</head>
+<body>
+<!--start-header-->
+	<div class="header" id="home">
+		<div class="container">
+			<div class="head">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt="" /></a>
+			</div>
+			<div class="navigation">
+				 <span class="menu"></span> 
+					<ul class="navig">
+						<li><a href="index.html"  class="active">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="features.html">Features</a></li>
+						<li><a href="work.html">Work</a></li>
+						<li><a href="404.html">Support</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+			</div>
+				<div class="clearfix"></div>
+			</div>
+			</div>
+		</div>	
+	<!-- script-for-menu -->
+	<!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(" ul.navig").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 <!-- script-for-menu -->
+	 <!--start-banner-->
+	 <div class="banner">
+	 	<div class="container">
+	 		<div class="banner-main">
+	 			<div class="col-md-6 banner-left">
+	 				<img src="images/ph.png" alt="" />
+	 			</div>
+	 			<div class="col-md-6 banner-right">
+	 				<h1>We design fun</h1>
+	 				<h2>Ut In Nulla Enim. Phasellus Molestie Magna Non Est Non Venenatis ut In Nulla Enim. Phasellus Molestie.</h2>
+	 				<p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie tempor. Suspendisse dictum feugiat.</p>
+	 				<div class="b-btn">
+	 					<ul>
+	 					<li><a href="#" class="contact">Contact us</a> <span> or </span></li>
+	 					<li><a href="#" class="work">See our work</a></li>
+	 					</ul>
+	 				</div>
+	 			</div>
+	 			<div class="clearfix"></div>
+	 		</div>
+	 	</div>
+	 </div>
+	 <!--end-banner-->
+     <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >手机网站模板</a></div>
+	 <!--start-client-->	
+	 <div class="client">
+	 	<div class="container">
+	 		<div class="client-main">
+	 			<ul>
+	 				<li><img src="images/client-1.png" alt="" /></li>
+	 				<li><img src="images/client-2.png" alt="" /></li>
+	 				<li><img src="images/client-3.png" alt="" /></li>
+	 				<li><img src="images/client-4.png" alt="" /></li>
+	 				<li><img src="images/client-5.png" alt="" /></li>
+	 			</ul>
+	 		</div>
+	 	</div>
+	 </div>
+	 <!--end-client-->
+	 <!--start-lorem-->	
+	 <div class="lorem">
+	 	<div class="container">
+	 		<div class="lorem-top">
+	 			<div class="col-md-4 lorem-top-left">
+	 				<h3>Lorem <span>Ipsum dolor</span> sit amet</h3>
+	 				<ul>
+	 					<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+	 					<li><a href="#">Consectetur adipiscing elit.</a></li>
+	 					<li><a href="#">Donec vulputate velit a velit consect.</a></li>
+	 					<li><a href="#">Praesent at accumsan elit.</a></li>
+	 				</ul>
+	 				<div class="l-btn">
+	 					<a href="#">See more benefits</a>
+	 				</div>
+	 			</div>
+	 			<div class="col-md-8 lorem-top-right">
+	 				<h3>Lorem ipsum dolor <span>Sit amet!</span></h3>
+	 				<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate velit a velit consectetur luctus. Etiam in malesuada turpis. Praesent at accumsan elit. Duis viverra neque eu odio lacinia semper. Sed id lectus lectus. Vivamus hendrerit vehicula ipsum in tincidunt. Morbi porttitor venenatis diam, in sodales odio sagittis eu. Nulla nec eros purus. Etiam purus massa, egestas vitae consequat non, rhoncus gravida orci”</p>
+					<div class="lorem-top-bottom">
+						<h5>Vladimir Plutin</h5>
+						<label>President, Rambo man, World savior</label>
+					</div>
+					<img src="images/men-1.png" alt="" />
+	 			</div>
+	 			<div class="clearfix"></div>
+	 		</div>
+	 		<div class="research">
+	 			<div class="col-md-4 res-left">
+	 				<img src="images/res-1.png" alt="" />
+	 				<h4>Research</h4>
+	 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. </p>
+	 				<div class="r-btn">
+	 					<a href="#">Read more</a>
+	 				</div>
+	 			</div>
+	 			<div class="col-md-4 res-left">
+	 				<img src="images/res-2.png" alt="" />
+	 				<h4>Usability</h4>
+	 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. </p>
+	 				<div class="r-btn">
+	 					<a href="#">Read more</a>
+	 				</div>
+	 			</div>
+	 			<div class="col-md-4 res-left">
+	 				<img src="images/res-3.png" alt="" />
+	 				<h4>Design</h4>
+	 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. </p>
+	 				<div class="r-btn">
+	 					<a href="#">Read more</a>
+	 				</div>
+	 			</div>
+	 			<div class="clearfix"></div>
+	 		</div>
+	 		<div class="target">
+	 			<div class="col-md-4 target-left">
+	 				<h3>Professional <span>target analyzing</span></h3>
+	 				<p>Phasellus sollicitudin gravida nisl, mollis feugiat metus tincidunt in. Pellentesque id sem convallis urna vehicula imperdiet. Aliquam venenatis commodo malesuada laoreet, pellentesque at mauris erat volutpat. </p>
+	 				<div class="t-btn">
+	 					<p>Estique<a href="#"> dova lormae</a></p>
+	 				</div>
+	 			</div>
+	 			<div class="col-md-4 target-left">
+	 				<h3>Stay focus and <span>reach your goal!</span></h3>
+	 				<p>Phasellus sollicitudin gravida nisl, mollis feugiat metus tincidunt in. Pellentesque id sem convallis urna vehicula imperdiet. Aliquam venenatis commodo malesuada laoreet, pellentesque at mauris erat volutpat. </p>
+	 				<div class="t-btn">
+	 					<p>Deu malou <a href="#">lelopa</a></p>
+	 				</div>
+	 			</div>
+	 			<div class="col-md-4 target-left">
+	 				<h3>Your data is <span>safe with us</span></h3>
+	 				<p>Phasellus sollicitudin gravida nisl, mollis feugiat metus tincidunt in. Pellentesque id sem convallis urna vehicula imperdiet. Aliquam venenatis commodo malesuada laoreet, pellentesque at mauris erat volutpat. </p>
+	 				<div class="t-btn">
+	 					<p>Sed vel <a href="#">aliquet es.</a></p>
+	 				</div>
+	 			</div>
+	 			<div class="clearfix"></div>
+	 		</div>
+	 		<div class="project">
+	 			<h3>Selected <span>projects</span></h3>
+	 			<div class="project-top">
+		 			<div class="col-md-3 project-left">
+		 				<img src="images/project-1.jpg" alt="" />
+		 			</div>
+		 			<div class="col-md-3 project-left">
+		 				<img src="images/project-2.jpg" alt="" />
+		 			</div>
+		 			<div class="col-md-3 project-left">
+		 				<img src="images/project-3.jpg" alt="" />
+		 			</div>
+		 			<div class="col-md-3 project-left">
+		 				<img src="images/project-4.jpg" alt="" />
+		 			</div>
+		 			<div class="clearfix"></div>
+	 			</div>
+	 		</div>
+	 	</div>
+	 </div>
+	 <!--end-lorem-->
+	 <!--start-footer-->
+	 <div class="footer">
+	 	<div class="container">
+	 		<div class="footer-top">
+	 			<div class="footer-left">
+	 				<div class="footer-text">
+	 					<a href="about.html">ABOUT</a>
+	 					<ul>
+	 						<li><a href="#">- Lorem ipsum</a></li>
+							<li><a href="#">- Dolor sit amet</a></li>
+							<li><a href="#">- Nullam sed </a></li>
+							<li><a href="#">- Integer sagttis eget</a></li>
+	 					</ul>
+	 				</div>
+	 				<div class="footer-text">
+	 					<a href="features.html">FEATURES</a>
+	 					<ul>
+	 						<li><a href="#">- Lorem ipsum</a></li>
+							<li><a href="#">- Dolor sit amet</a></li>
+							<li><a href="#">- Nullam sed </a></li>
+							<li><a href="#">- Integer sagttis eget</a></li>
+	 					</ul>
+	 				</div>
+	 				<div class="footer-text">
+	 					<a href="work.html">WORK</a>
+	 					<ul>
+	 						<li><a href="#">- Lorem ipsum</a></li>
+							<li><a href="#">- Dolor sit amet</a></li>
+							<li><a href="#">- Nullam sed </a></li>
+							<li><a href="#">- Integer sagttis eget</a></li>
+	 					</ul>
+	 				</div>
+	 				<div class="footer-text">
+	 					<a href="404.html">SUPPORT</a>
+	 					<ul>
+	 						<li><a href="#">- Lorem ipsum</a></li>
+							<li><a href="#">- Dolor sit amet</a></li>
+							<li><a href="#">- Nullam sed </a></li>
+							<li><a href="#">- Integer sagttis eget</a></li>
+	 					</ul>
+	 				</div>
+	 				<div class="footer-text">
+	 					<a href="contact.html">CONTACT</a>
+	 					<ul>
+	 						<li><a href="#">- Lorem ipsum</a></li>
+							<li><a href="#">- Dolor sit amet</a></li>
+							<li><a href="#">- Nullam sed </a></li>
+							<li><a href="#">- Integer sagttis eget</a></li>
+	 					</ul>
+	 				</div>
+	 			</div>
+	 			<div class="footer-right">
+	 				<ul>
+	 					<li><a href="#"><span class="fb"> </span></a></li>
+	 					<li><a href="#"><span class="twt"> </span></a></li>
+	 					<li><a href="#"><span class="in"> </span></a></li>
+	 					<li><a href="#"><span class="be"> </span></a></li>
+	 					<li><a href="#"><span class="drbl"> </span></a></li>
+	 				</ul>
+	 			</div>
+	 			<div class="clearfix"></div>
+	 			<div class="footer-bottom">
+	 				<p>Copyright &copy; 2015.Company name All rights reserved.<a target="_blank" href="http://www.cssmoban.com/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a> - Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></p>
+	 			</div>
+	 		</div>
+	 	</div>
+	 	<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	 </div>	
+	 <!--end-footer-->					 
+</body>
+</html>
